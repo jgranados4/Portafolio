@@ -142,6 +142,7 @@ header {
 /* *Habilidades */
 #myskill {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .skills__skill {
