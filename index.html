@@ -16,6 +16,7 @@
           <li><a href="#Conte">Inicio</a></li>
           <li><a href="#Skill">Habilidades</a></li>
           <li><a href="#about">Sobre mi </a></li>
+          <li><a href="#contactos">Contacto </a></li>
         </ul>
       </nav>
     </header>
@@ -54,9 +55,13 @@
         <div class="skills__skill">Github</div>
       </div>
     </section>
-    <section class="contacto">
+    <section id="contactos" class="contacto">
       <h1 class="contactos">Contacto</h1>
-      <form action="#" class="contact__form" method="post">
+      <form
+        action="https://formsubmit.co/5de5e9fa53324e6942e9572761118238"
+        class="contact__form"
+        method="post"
+      >
         <input type="hidden" name="form-name" value="form 1" />
         <div class="contact__form-field">
           <label class="contact__form-label" for="name">Name</label>
@@ -95,6 +100,13 @@
         <button type="submit" class="btn btn--theme contact__btn">
           Submit
         </button>
+        <input
+          type="hidden"
+          name="_next"
+          id=""
+          value="http://127.0.0.1:3000/"
+        />
+        <input type="hidden" name="_captcha" id="" value="false" />
       </form>
     </section>
     <footer class="main-footer">
@@ -108,8 +120,8 @@
               /></a>
             </li>
             <li>
-              <a href="https://github.com/jgranados4">
-                <img src="icons/github.png" alt="" target="_blank" />
+              <a href="https://github.com/jgranados4" target="_blank">
+                <img src="icons/github.png" alt="" />
               </a>
             </li>
           </ul>
