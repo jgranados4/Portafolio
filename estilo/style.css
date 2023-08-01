@@ -16,6 +16,7 @@
   margin: 0;
   padding: 0;
   font-family: "Source Sans Pro", sans-serif;
+  font-size: 100%;
 }
 #Encabezado h1 {
   color: black;
@@ -43,7 +44,7 @@ header {
 }
 #Menu > ul > li > a {
   text-decoration: none;
-  padding: 2.2rem 3rem;
+  padding: 2.2rem 1rem;
   display: inline-block;
   font-size: 1.6rem;
   color: #333;
@@ -105,12 +106,29 @@ header {
   position: relative;
 }
 .MiNom {
-  font-size: 5rem;
+  display: block;
+  white-space: nowrap;
+  width: 32ch;
+  font-family: monospace;
+  font-size: 4.4rem;
   text-transform: uppercase;
-  letter-spacing: 3px;
   text-align: center;
   color: #111;
   font-weight: 800;
+  border-right: 4px solid;
+  animation: typing 2s steps(32), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+/* Animacion */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 .infor {
   margin: 3rem auto 0 auto;
