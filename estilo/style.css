@@ -22,10 +22,12 @@
   color: black;
 }
 header {
+  position: fixed;
   display: flex;
   background-color: white;
   height: 110px;
   width: 100%;
+  z-index: 1000;
 }
 #Menu {
   display: flex;
@@ -114,7 +116,6 @@ header {
   text-transform: uppercase;
   text-align: center;
   color: #111;
-  font-weight: 800;
   border-right: 4px solid;
   animation: typing 2s steps(32), blink 0.5s infinite step-end alternate;
   overflow: hidden;
@@ -279,7 +280,6 @@ button {
 }
 /** Footer */
 .main-footer {
-  margin-top: 20px;
   background: #000;
   color: #fff;
 }
