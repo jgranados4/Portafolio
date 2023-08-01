@@ -16,6 +16,8 @@
   margin: 0;
   padding: 0;
   font-family: "Source Sans Pro", sans-serif;
+}
+html {
   font-size: 100%;
 }
 #Encabezado h1 {
@@ -89,6 +91,7 @@ header {
 .section-about {
   max-width: 120rem;
   margin: auto;
+  margin-top: 3rem;
   width: 92%;
 }
 /**contenido */
@@ -140,14 +143,12 @@ header {
   color: #555;
   font-size: 2rem;
   text-align: center;
-  width: 100%;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 .contenido {
   font-family: "Source Sans Pro Regular";
   color: #555;
   font-size: 2rem;
-  margin: auto;
   line-height: 1.7;
 }
 .home-contenido {
@@ -159,6 +160,9 @@ header {
   width: 92%;
 }
 /* *Habilidades */
+.Skill {
+  margin-top: 3rem;
+}
 #myskill {
   display: flex;
   justify-content: center;
