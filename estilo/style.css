@@ -115,7 +115,7 @@ header {
   white-space: nowrap;
   width: 32ch;
   font-family: monospace;
-  font-size: 4.4rem;
+  font-size: 3.4rem;
   text-transform: uppercase;
   text-align: center;
   color: #111;
@@ -152,12 +152,15 @@ header {
   line-height: 1.7;
 }
 .home-contenido {
+  display: flex;
+  flex-wrap: wrap;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 90rem;
-  width: 92%;
+  width: 90%;
+  gap: 90px;
 }
 /* *Habilidades */
 .Skill {
