@@ -199,7 +199,7 @@ header {
   margin-bottom: 3rem;
 }
 .projects__row-content {
-  padding: 2rem 0;
+  padding: 2rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
