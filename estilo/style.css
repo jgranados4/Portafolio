@@ -20,6 +20,9 @@
 html {
   font-size: 100%;
 }
+body {
+  font-size: 100%;
+}
 #Encabezado h1 {
   color: black;
 }
@@ -27,14 +30,14 @@ header {
   position: fixed;
   display: flex;
   background-color: white;
-  height: 110px;
+  height: 6.875rem;
   width: 100%;
   z-index: 1000;
 }
 #Menu {
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 6.25rem;
   justify-content: space-between;
 }
 #Menu ul {
@@ -160,7 +163,7 @@ header {
   transform: translate(-50%, -50%);
   max-width: 90rem;
   width: 90%;
-  gap: 90px;
+  gap: 5.625rem;
 }
 /* *Habilidades */
 .Skill {
@@ -292,7 +295,7 @@ button {
   color: #fff;
 }
 .main-container {
-  min-height: 100px;
+  min-height: 6.25rem;
   display: flex;
 }
 .redSocial {
@@ -303,7 +306,7 @@ button {
 .redSocial > ul {
   list-style: none;
   display: flex;
-  flex-basis: 100px;
+  flex-basis: 6.25rem;
   justify-content: space-evenly;
 }
 .redSocial > ul > li {
