@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilo/style.css" />
-    <link rel="stylesheet" href="estilo/Responsive.css">
+    <link rel="stylesheet" href="estilo/Responsive.css" />
     <title>Portafolio</title>
   </head>
   <body>
@@ -101,11 +101,7 @@
     </section>
     <section id="contactos" class="contacto">
       <h1 class="contactos">Contacto</h1>
-      <form
-        action="https://formsubmit.co/5de5e9fa53324e6942e9572761118238"
-        class="contact__form"
-        method="post"
-      >
+      <form class="contact__form" method="post" netlify>
         <input type="hidden" name="form-name" value="form 1" />
         <div class="contact__form-field">
           <label class="contact__form-label" for="name">Name</label>
@@ -144,11 +140,7 @@
         <button type="submit" class="btn btn--theme contact__btn">
           Submit
         </button>
-        <input
-          type="hidden"
-          name="_next"
-          value="https://lighthearted-gelato-7a67a4.netlify.app/"
-        />
+        <input type="hidden" name="_next" />
         <input type="hidden" name="_captcha" value="false" />
       </form>
     </section>
