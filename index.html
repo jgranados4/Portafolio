@@ -101,7 +101,13 @@
     </section>
     <section id="contactos" class="contacto">
       <h1 class="contactos">Contacto</h1>
-      <form class="contact__form" method="post" netlify>
+      <form
+        class="contact__form"
+        method="post"
+        action="/pages/success"
+        data-netlify="true"
+        netlify
+      >
         <input type="hidden" name="form-name" value="form 1" />
         <div class="contact__form-field">
           <label class="contact__form-label" for="name">Name</label>
